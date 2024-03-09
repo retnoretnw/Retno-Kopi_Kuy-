@@ -62,6 +62,7 @@ body {
    kenapa pada body? karena elemen body membungkus semua elemen dari nav section sampai footer
    */
    font-family: 'Poppins';
+   font-family: "Madimi One", sans-serif;
 }
 
 /*
@@ -533,6 +534,35 @@ footer div.navigasi a {
 }
 
 /* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
+@media (max-width:768px){
+ .navigasi {
+  display: none;
+ }
+  a shop{
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  
+  header div.kiri,
+  header div.kanan {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  div.produk,
+  div.team,
+  div.kontak {
+    width: 50%;
+  }
+ 
+  div.testimoni {
+   width: 100%;
+   padding: 26%;
+   margin-bottom: 30%;
+  }
+}
+
 
 
 
